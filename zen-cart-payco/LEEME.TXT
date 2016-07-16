@@ -1,0 +1,16 @@
+DIST  	-> PLUGIN EN RAR
+SRC	-> PLUGIN SIN COMPRIMIR
+
+***-PLUGIN DE PAYCO PARA ZEN CART-***
+
+*El plugin se instala de manera manual ya que zen cart no cuenta con un wizard para instalar plugin, asi que si tiene el plugin en rar debe descomprimirlo y realizar lo siguiente:
+
+*ubiquese en el directorio raiz de zen cart,asi mismo ubiquese en el directorio raiz del plugin, inicie copiando los archivos del plugin en su respectiva ubicacion
+por ejemplo:
+
+PLUGIN:
+	plugin/confirmacion.php
+
+teniendo encuenta esa ubicacion asi mismo debera copiarla en el zen-car quedando el archivo confirmacion.php en raiz del zen- cart
+
+ZEN-CART: zen-cart/confirmacion.php
