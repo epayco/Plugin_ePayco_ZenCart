@@ -22,13 +22,9 @@
 3. Copie el archivo checkout_process_pol.php en el directorio raíz del zen cart.
 4. Inspeccione la carpeta includes y ubique los archivos de los subdirectorios, en la misma ubicación del zen cart por ejemplo, el caso del archivo **define_checkout_success.php** que se encuentra en la siguente ruta:
 
-
-**PluginPayco/Includes/Languages/english/html_includes/classic/define_checkout_success.php**
-
-En el zen cart debe ubicarlo en la misma ruta, que sería la siguiente:
-
-**Zencart/Includes/Languages/english/html_includes/classic/define_checkout_success.php**
-
+	**PluginPayco/Includes/Languages/english/html_includes/classic/define_checkout_success.php**
+	En el zen cart debe ubicarlo en la misma ruta, que sería la siguiente:
+	**Zencart/Includes/Languages/english/html_includes/classic/define_checkout_success.php**
 
 
 
