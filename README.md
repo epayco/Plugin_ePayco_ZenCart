@@ -6,6 +6,7 @@
 
 * [Requisitos](#requisitos)
 * [Instalación](#instalación)
+* [Configuración](#configuración)
 * [Pasos](#pasos)
 * [Versiones](#versiones)
 
@@ -23,10 +24,23 @@
 4. Inspeccione la carpeta includes y ubique los archivos de los subdirectorios, en la misma ubicación del zen cart por ejemplo, el caso del archivo **define_checkout_success.php** que se encuentra en la siguente ruta:
 
 	**PluginPayco/Includes/Languages/english/html_includes/classic/define_checkout_success.php**
-	En el zen cart debe ubicarlo en la misma ruta, que sería la siguiente:
+
+		En el zen cart debe ubicarlo en la misma ruta, que sería la siguiente:
 	**Zencart/Includes/Languages/english/html_includes/classic/define_checkout_success.php**
 
 
+
+## Configuración
+
+1. Para configurar el Plugin de ePayco, ingrese al administrador de Zen cart, ubique la sección Modules en el menú principal, despliegue las opciones y haga clic sobre la opción Payment.
+2. En la sección payment, podrá ver los módulos de pago actuales, entre ellos ePayco, haga clic en el logo de ePayco, para desplegar el botón Install y presiónelo.
+3. Configure los siguientes campos:
+
+	**ID USUARIO**: Es el ID o Número de usuario que es generado por el sistema de ePayco.
+	**LLAVE SECRETA**: Esta llave la puede encontrar ingresando por su módulo administrativo de Payco.
+	**URL DE LA PASARELA**: por defecto está apuntando al servidor en producción de la pasarela, no es necesario cambiarlo.
+
+	Al finalizar presione el botón Update para guardar los cambios, ahora el método de pago es visible para los usuarios, en el carrito de compras.
 
 
 ## Pasos
