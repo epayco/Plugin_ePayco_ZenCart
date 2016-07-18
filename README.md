@@ -34,24 +34,18 @@
 2. En la sección payment, podrá ver los módulos de pago actuales, entre ellos ePayco, haga clic en el logo de ePayco, para desplegar el botón Install y presiónelo.
 3. Configure los siguientes campos:
 
-	**ID USUARIO**: Es el ID o Número de usuario que es generado por el sistema de ePayco.
-	**LLAVE SECRETA**: Esta llave la puede encontrar ingresando por su módulo administrativo de Payco.
-	**URL DE LA PASARELA**: por defecto está apuntando al servidor en producción de la pasarela, no es necesario cambiarlo.
+	* **ID USUARIO**: Es el ID o Número de usuario que es generado por el sistema de ePayco.
+	* **LLAVE SECRETA**: Esta llave la puede encontrar ingresando por su módulo administrativo de ePayco.
+	* **URL DE LA PASARELA**: por defecto está apuntando al servidor en producción de la pasarela, no es necesario cambiarlo.
 
 	Al finalizar presione el botón Update para guardar los cambios, ahora el método de pago es visible para los usuarios, en el carrito de compras.
 
 
 ## Pasos
 
-<img src="ImgTutorialWooCommerce/tuto-1.jpg" width="400px"/>
-<img src="ImgTutorialWooCommerce/tuto-2.jpg" width="400px"/>
-<img src="ImgTutorialWooCommerce/tuto-3.jpg" width="400px"/>
-<img src="ImgTutorialWooCommerce/tuto-4.jpg" width="400px"/>
-<img src="ImgTutorialWooCommerce/tuto-5.jpg" width="400px"/>
-<img src="ImgTutorialWooCommerce/tuto-6.jpg" width="400px"/>
-<img src="ImgTutorialWooCommerce/tuto-7.jpg" width="400px"/>
-<img src="ImgTutorialWooCommerce/tuto-8.jpg" width="400px"/>
-
+<img src="ImgTutorialZenCart/tuto-1.jpg" width="400px"/>
+<img src="ImgTutorialZenCart/tuto-2.jpg" width="400px"/>
+<img src="ImgTutorialZenCart/tuto-3.jpg" width="400px"/>
 
 ## Versiones
 * [ePayco plugin ZenCart v1.5.1](https://github.com/epayco/Plugin_ePayco_ZenCart/releases/tag/1.5.1).
