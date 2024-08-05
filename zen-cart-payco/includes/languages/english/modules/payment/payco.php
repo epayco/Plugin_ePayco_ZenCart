@@ -11,11 +11,8 @@
 
 
 //define('MODULE_PAYMENT_PAYCO_TEXT_TITLE', 'Pasarela de Pago Seguro a trav�s de Payco.co');
-<<<<<<< HEAD
+
 define('MODULE_PAYMENT_PAYCO_TEXT_TITLE', '<img src="' . DIR_WS_CATALOG . 'includes/languages/english/modules/payment/img_payco/logo.png" width="290">');
-=======
-define('MODULE_PAYMENT_PAYCO_TEXT_TITLE', '<img src="https://plugins.epayco.io/testing/prueba/mediosdepago.png" width="290">');
->>>>>>> 8f40385b327fb18d9898a44a1f356173c3d1d5bc
 define('MODULE_PAYMENT_PAYCO_TEXT_DESCRIPTION', 'PAYCO');
 define('MODULE_PAYMENT_PAYCO_TEXT_ERROR_MESSAGE', 'Error in the process');
 define('MODULE_PAYMENT_PAYCO_TEXT_CANCEL', 'The process Canceled');
