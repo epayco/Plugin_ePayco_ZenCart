@@ -166,7 +166,7 @@ class epayco extends base {
             "extra2" => (string)$insert_id,
         ],
         "extrasEpayco" => [
-            "extra5" => "P19"
+            "extra5" => "P65"
         ],
         "epaycoMethodsDisable" => [],
         "method"=> "POST",
