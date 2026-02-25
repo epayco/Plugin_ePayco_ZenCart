@@ -19,14 +19,23 @@
 ## Instalación
 
 1. [Descarga el plugin.](https://github.com/epayco/Plugin_ePayco_ZenCart/releases/tag/1.5.1)
-2. Copie el archivo confirmacion.php en el directorio raíz del zen cart.
-3. Copie el archivo checkout_process_pol.php en el directorio raíz del zen cart.
-4. Inspeccione la carpeta includes y ubique los archivos de los subdirectorios, en la misma ubicación del zen cart por ejemplo, el caso del archivo **define_checkout_success.php** que se encuentra en la siguente ruta:
+2. Copie los archivos `confirmacion.php` y `checkout_process_pol.php` en el directorio raíz de ZenCart.
 
-	**PluginPayco/Includes/Languages/english/html_includes/classic/define_checkout_success.php**
+3. Copie los archivos de la carpeta `includes` manteniendo la estructura de directorios:
+   
+   - Navegue por cada subdirectorio dentro de la carpeta `includes` del plugin
+   - Copie cada archivo a la ubicación correspondiente en su instalación de ZenCart, **respetando la misma estructura de carpetas**
+   
+   **Ejemplo:** Para el archivo `define_checkout_success.php`:
+   
+   - **Ubicación en el plugin:**  
+     `PluginPayco/includes/languages/english/html_includes/classic/define_checkout_success.php`
+   
+   - **Destino en ZenCart:**  
+     `ZenCart/includes/languages/english/html_includes/classic/define_checkout_success.php`
+   
+   > **Nota:** Aplique este mismo procedimiento para todos los archivos dentro de la carpeta `includes`, manteniendo siempre la estructura de subdirectorios original.
 	
-	En el zen cart debe ubicarlo en la misma ruta, que sería la siguiente:
-	**Zencart/Includes/Languages/english/html_includes/classic/define_checkout_success.php**
 
 ## Configuración
 
@@ -43,9 +52,11 @@
 
 ## Pasos
 
-<img src="ImgTutorialZenCart/tuto-1.jpg" width="400px"/>
-<img src="ImgTutorialZenCart/tuto-2.jpg" width="400px"/>
-<img src="ImgTutorialZenCart/tuto-3.jpg" width="400px"/>
+<img src="ImgTutorialZenCart/tuto-1.png" width="400px"/>
+<img src="ImgTutorialZenCart/tuto-2.png" width="400px"/>
+<img src="ImgTutorialZenCart/tuto-3.png" width="400px"/>
 
 ## Versiones
 * [ePayco plugin ZenCart v1.5.1](https://github.com/epayco/Plugin_ePayco_ZenCart/releases/tag/1.5.1).
+
+* [ePayco plugin ZenCart v2.0.0](https://github.com/epayco/Plugin_ePayco_ZenCart/releases/tag/2.0.0).
